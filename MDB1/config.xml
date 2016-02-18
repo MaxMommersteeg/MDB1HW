@@ -50,6 +50,11 @@
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
   <access origin="*"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
+  <app-router>
+    <app-route path="/" import="pages/home-page.html"></app-route>
+    <app-route path="/**/www/index.html" import="pages/home-page.html"></app-route>
+    <app-route path="*" import="pages/not-found.html"></app-route>
+  </app-router>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
