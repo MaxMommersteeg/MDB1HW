@@ -24,19 +24,11 @@
         <core-scaffold>
             <core-header-panel navigation flex mode="seamed">
                 <core-toolbar id="core_toolbar">Navigatie</core-toolbar>
-                <core-menu theme="core-light-theme" attr-for-selected="data-route" selected="home" on-iron-select="onMenuSelect">
-                    <a data-route="home" href="/">
-                        <core-item icon="home" label="Home"></core-item>
-                    </a>
-                    <a data-route="movies" href="pages/movies.html">
-                        <core-item icon="theaters" label="Movies"></core-item>
-                    </a>
-                    <a data-route="series" href="pages/series.html">
-                        <core-item icon="theaters" label="Series"></core-item>
-                    </a>
-                    <a data-route="cartoons" href="pages/cartoons.html">
-                        <core-item icon="face" label="Cartoons"></core-item>
-                    </a>
+                <core-menu theme="core-light-theme">
+                    <core-item icon="home" label="Home"></core-item>
+                    <core-item icon="theaters" label="Movies"></core-item>
+                    <core-item icon="theaters" label="Series"></core-item>
+                    <core-item icon="face" label="Cartoons"></core-item>
                 </core-menu>
             </core-header-panel>
             <div tool>MDB1</div>
